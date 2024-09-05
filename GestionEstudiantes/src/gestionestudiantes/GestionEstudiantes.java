@@ -20,12 +20,12 @@ public class GestionEstudiantes {
         //Se crea el objeto
         Estudiante estudiante1 = new Estudiante(matricula, nombre,notaFinal);
         
-        //Le pedimosque nos imprima los datos antes ingresados
+        //Le pedimos que nos imprima los datos antes ingresados
         System.out.println("Informacion del estudiante");
         System.out.println(estudiante1.getInfo());
         
         //Aqui se realiza la condicional
-        if (notaFinal>= 4.0){
+        if (notaFinal>= 40){
             System.out.println("Ha aprobado con exito!");
         }else{
             System.out.println("Ha reprobado nos vemos el otro semestre c:");
